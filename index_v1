@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -16,7 +17,16 @@
 	<!--This class is for my Navigation/Menu-->
 	<div class="nav">Nav</div>
 	
-	<div class="section">Body</div>
+	<div class="section">
+		<br>
+		<img src="images/placeholder.png">
+		<br>
+		<img src="images/placeholder.png">
+		<br>
+		<img src="images/placeholder.png">
+	
+	
+	</div>
 	
   </body>
   
