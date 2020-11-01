@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+	<!-- import the webpage's stylesheet goes here -->
+	
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/TextButton.js"></script>
+	
+	
+	<!--add meta data-->
+	<meta charset="utf-8">
+	
+	<meta name="Keywords" content="Warhammer, Tawa College, Wargames, 40k, Sigmar">
+	
+	<meta name="Author" content="Connor McBeth"/>
+	
+	<meta name="Description" content="Website for the Tawa College Warhammer club">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+  </head> 
+
+	<!-- main webpage content starts here -->  
+  <body>
+	
+	<div class="grid-container">
+	
+		<div class="header">
+		<h1>Warhammer Club</h1>
+		</div>
+		
+		<!--This class is for my Navigation/Menu-->
+		<div class="nav">
+		<ul>
+			<a href="index.html"><li>Home</li></a>
+			<li>News
+                <ul>
+                    <a href="http://www.script-tutorials.com/category/jquery/"><li>Term 1</li></a>
+					<a href="http://www.script-tutorials.com/category/html-css/"><li>Term 2</li></a>
+					<a href="http://www.script-tutorials.com/category/html-css/"><li>Term 3</li></a>
+					<a href="http://www.script-tutorials.com/category/html-css/"><li>Term 4</li></a>
+                </ul>
+			</li>
+			<a href="https://1d4chan.org/wiki/Bretonnia"><li>Gallery</li></a>
+			<a href="https://totalwarwarhammer.gamepedia.com/Bretonnia"><li>Info</li></a>
+		</ul>
+		</div>
+	
+		<div class="section">
+			
+				<button onclick="week1()">Week 1 News</button>
+
+				<div id="Week1">
+					<h4>
+						12
+					</h4>
+				</div>
+				
+				<button onclick="week2()">Week 2 News</button>
+
+				<div id="Week2">
+					<h4>
+						11
+					</h4>
+				</div>
+				
+				
+				<button onclick="week3()">Week 3 News</button>
+
+				<div id="Week3">
+					<h4>
+						10
+					</h4>
+				</div>
+				
+				<button onclick="week4()">Week 4 News</button>
+
+				<div id="Week4">
+					<h4>
+						9
+					</h4>
+				</div>
+				
+				<button onclick="week5()" id="Week5button">Week 5 News</button>
+
+				<div id="Week5">
+					<h4>
+						8
+					</h4>
+				</div>
+				
+				<button onclick="week6()">Week 6 News</button>
+
+				<div id="Week6">
+					<h4>
+						7
+					</h4>
+				</div>
+				
+				<button onclick="week7()">Week 7 News</button>
+
+				<div id="Week7">
+					<h4>
+						6
+					</h4>
+				</div>
+			
+				<button onclick="week8()">Week 8 News</button>
+
+				<div id="Week8">
+					<h4>
+						5
+					</h4>
+				</div>
+				
+				<button onclick="week9()">Week 9 News</button>
+
+				<div id="Week9">
+					<h4>
+						4
+					</h4>
+				</div>
+				
+				<button onclick="week10()">Week 10 News</button>
+
+				<div id="Week10">
+					<h4>
+						3
+					</h4>
+				</div>
+				
+				<button onclick="week11()">Week 11 News</button>
+
+				<div id="Week11">
+					<h4>
+						2
+					</h4>
+				</div>
+				
+				<button onclick="week12()">Week 12 News</button>
+
+				<div id="Week12">
+					<h4>
+						1
+					</h4>
+				</div>
+			
+		</div>
+		
+	</div>
+  </body>
+  
+</html>
