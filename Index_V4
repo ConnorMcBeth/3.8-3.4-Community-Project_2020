@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+	<!-- import the webpage's stylesheet goes here -->
+	
+	<link rel="stylesheet" href="css/style.css">
+	
+	<!--add meta data-->
+	<meta charset="utf-8">
+	
+	<meta name="Keywords" content="Warhammer, Tawa College, Wargames, 40k, Sigmar">
+	
+	<meta name="Author" content="Connor McBeth"/>
+	
+	<meta name="Description" content="Website for the Tawa College Warhammer club">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+  </head> 
+
+	<!-- main webpage content starts here -->  
+  <body>
+	
+	<div class="grid-container">
+	
+		<div class="header">
+		<h1>Warhammer Club</h1>
+		</div>
+		
+		<!--This class is for my Navigation/Menu-->
+		<div class="nav">
+		<ul>
+			<a href="index.html"><li>Home</li></a>
+			<li>News
+                <ul>
+                    <a href="NewsTerm1.html"><li>Term 1</li></a>
+					<a href="http://www.script-tutorials.com/category/html-css/"><li>Term 2</li></a>
+					<a href="http://www.script-tutorials.com/category/html-css/"><li>Term 3</li></a>
+					<a href="http://www.script-tutorials.com/category/html-css/"><li>Term 4</li></a>
+                </ul>
+			</li>
+			<a href="https://1d4chan.org/wiki/Bretonnia"><li>Gallery</li></a>
+			<a href="https://totalwarwarhammer.gamepedia.com/Bretonnia"><li>Info</li></a>
+		</ul>
+		</div>
+	
+		<div class="section">
+			<br>
+			<a href="NewsTerm1.html"><img src="images/news.jpg"></a>
+			
+			<br>
+			<a href="https://1d4chan.org/wiki/Bretonnia"><img src="images/Gallery.jpg"></a>
+			<br>
+			<a href="https://totalwarwarhammer.gamepedia.com/Bretonnia"><img src="images/Info.jpg"></a>
+		
+		
+			<div class="text1">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Congue eu consequat ac felis donec.
+				Nisl condimentum id venenatis a condimentum vitae. 
+				Nunc pulvinar sapien et ligula ullamcorper malesuada proin.
+				Vitae suscipit tellus mauris a diam maecenas sed.
+				This is the news</p>
+			</div>
+		
+			<div class="text2">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Congue eu consequat ac felis donec.
+				Nisl condimentum id venenatis a condimentum vitae. 
+				Nunc pulvinar sapien et ligula ullamcorper malesuada proin.
+				Vitae suscipit tellus mauris a diam maecenas sed.
+				This is the Gallery</p>
+			</div>
+		
+			<div class="text3">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Congue eu consequat ac felis donec.
+				Nisl condimentum id venenatis a condimentum vitae. 
+				Nunc pulvinar sapien et ligula ullamcorper malesuada proin.
+				Vitae suscipit tellus mauris a diam maecenas sed.
+				This is the Information </p>
+			</div>
+		
+		</div>
+		
+	</div>
+  </body>
+  
+</html>
