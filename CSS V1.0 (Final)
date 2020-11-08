@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap'); /*Title Font*/
+@import url('https://fonts.googleapis.com/css2?family=Almendra:ital,wght@1,700&display=swap');/*Title Font*/
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');/*Nav Font*/
+
+/* CSS files add styling rules to your content */
+body {
+background-color: rgb(41, 86, 167);
+flex-wrap: wrap
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px auto;
+  grid-template-rows: 150px 50px 600px 50px;
+  height: 100vh;
+}
+
+/* the header will be a slide show banner */
+.header {
+  grid-columns-start: 1;
+  grid-column-end: span 2;
+  height:200%;
+  background-image:url("image/banner.jpg");
+}
+/* I might add a drop down menu later */
+.nav {
+  grid-columns-start: 1;
+  grid-column-end: span 2;
+  height:80%;
+  background-color: rgb(81, 126, 207);
+}
+
+.section {
+  background-color: white;
+  grid-columns-start: 1;
+  grid-column-end: span 2;
+  height:125%;
+}
+
+.text1{
+position:absolute;
+height:10%;
+width:90%;
+top:255px;
+left:2%;
+}
+
+.text2{
+position:absolute;
+height:10%;
+width:90%;
+top:500px;
+left:2%;
+}
+
+.text3{
+position:absolute;
+height:10%;
+width:90%;
+top:745px;
+left:2%;
+}
+
+img{
+width:250px;
+height:200px;
+padding: 20px 20px 20px 20px;
+position:relative;
+}
+
+
+p{
+position:absolute;
+align-content:right;
+padding-left:300px;
+font-family: 'Cinzel', serif;
+font-weight:bold;
+}
+
+h1{
+font-family: 'MedievalSharp', cursive;
+/*font-family: 'Almendra', serif;*/
+margin-left:430px;
+font-size:69px;
+}
+
+ul {
+  display: inline;
+  padding: 15px 0px 0px 0px;
+  list-style: none;
+}
+ul li {
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 1%;
+  position: relative;
+  padding: 7px 20px 17px; /* padding for main block menu buttons */
+  height:40%;
+}
+
+ul li:first-child{
+margin-left:20px;
+}
+
+ul li:hover {
+  background:#ffffff ;
+  }
+  
+/* Hover Colours*/
+a:link {color:#000000;} /* unvisited link */
+a:visited {color:#000000;} /* visited link */
+a:hover {color:#000000;} /* mouse over link */
+a:active {color:#000000;}  /* selected link */
+
+a {
+text-decoration: none;
+}
+
+ul li ul {
+  padding-top: 5px;
+  position: absolute;
+  top: 85%; /* space between each drop-down menu list */
+  left: 0;
+  width: 150px; /* width of drop-down menu list */
+  display: none;
+  visibility: hidden; /* this hides the drop-down menu list */
+  z-index: 1; /* for overlapping divs, bringing to the front like a drop down menu */
+  height:40px;
+}
+
+ul li ul li { 
+  background:#ffffff ; /* this is the drop-down menu background color */
+  display: block; 
+  height:40%;
+}
+
+ul li ul li:first-child{
+margin-left:0px;
+}
+ul li ul li:hover { background:rgb(81, 126, 207);} /* this is the drop-down menu hover on blocks */
+
+ul li:hover ul {
+  display: block;
+  visibility: visible; /* this makes the drop-down menu visable*/
+}
+
+
+h4 {
+font-family: 'Cinzel', serif;
+font-weight:bold;
+}
+
+#Week1 {
+display:none;
+margin-left:20px;
+}
+
+#Week2 {
+display:none;
+margin-left:20px;
+}
+
+#Week3 {
+display:none;
+margin-left:20px;
+}
+
+#Week4 {
+display:none;
+margin-left:20px;
+}
+
+#Week5 {
+display:none;
+margin-left:20px;
+}
+
+#Week6 {
+display:none;
+margin-left:20px;
+}
+
+#Week7 {
+display:none;
+margin-left:20px;
+}
+
+#Week8 {
+display:none;
+margin-left:20px;
+}
+
+#Week9 {
+display:none;
+margin-left:20px;
+}
+
+#Week10 {
+display:none;
+margin-left:20px;
+}
+
+#Week11 {
+display:none;
+margin-left:20px;
+}
+
+#Week12 {
+display:none;
+margin-left:20px;
+}
+
+button{
+position:top;
+margin-left:10px;
+margin-top:10px;
+background-color:rgb(81, 126, 207);
+font-family: 'Cinzel', serif;
+font-weight:bold;
+}
+
